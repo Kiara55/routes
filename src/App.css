@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.Navbar{
+  padding: 2% 5%;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+};
+.Navbar .link{
+  color: black;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-decoration: none;
+};
+.Navbar.link:hover{
+  color: rgb(202,  16,  47);
+};
